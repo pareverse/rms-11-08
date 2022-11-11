@@ -27,7 +27,6 @@ const Sidebar = ({ isSidebarOpen, onSidebarClose }) => {
 		default: [
 			{ name: 'home', pathname: '' },
 			{ name: 'blogs', pathname: 'blogs' },
-			{ name: 'services', pathname: 'services' },
 			{ name: 'company', pathname: 'company' },
 			{ name: 'call us', pathname: 'contact' }
 		]
