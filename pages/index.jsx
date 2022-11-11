@@ -39,9 +39,9 @@ const Home = () => {
 
 	if (!session || (session && session.user.role === 'User')) {
 		return (
-			<>
+			<Container>
 				<Hero />
-			</>
+			</Container>
 		)
 	}
 }
